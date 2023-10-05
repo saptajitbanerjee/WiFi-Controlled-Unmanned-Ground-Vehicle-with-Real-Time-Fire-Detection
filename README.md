@@ -3,6 +3,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
+- [Unmanned Ground Vehicle](#ugv)
+- [Web Interface](#web-interface)
 - [Block Diagram](#block-diagram)
 - [System Architecture](#system-architecture)
   - [Hardware Components](#hardware-components)
@@ -20,11 +22,21 @@
 
 ## Introduction
 
-The remotely operated robotic car is a complex system that combines hardware and software to enable remote control and monitoring. It utilizes a Raspberry Pi as its core controller and leverages AWS cloud services for data transmission and processing. The project integrates sensors for environmental data collection, real-time video streaming for visual feedback, and machine learning for fire detection. Additionally, it provides multiple control interfaces, including on-screen, keyboard, and voice commands.
+The remotely operated unmanned ground vehicle is a complex system that combines hardware and software to enable remote control and monitoring. It utilizes a Raspberry Pi as its core controller and leverages AWS cloud services for data transmission and processing. The project integrates sensors for environmental data collection, real-time video streaming for visual feedback, and machine learning for fire detection. Additionally, it provides multiple control interfaces, including on-screen, keyboard, and voice commands.
 
 ## Project Overview
 
-The project aims to create a versatile remotely operated robotic car system that integrates various technologies such as IoT, machine learning, and real-time data transmission. This system is designed to be highly adaptable and capable of performing tasks such as remote surveillance, environmental monitoring, and rapid response to critical events. It brings together a diverse set of components and software tools to achieve its objectives.
+The project aims to create a versatile remotely operated unmanned ground vehicle system that integrates various technologies such as IoT, machine learning, and real-time data transmission. This system is designed to be highly adaptable and capable of performing tasks such as remote surveillance, environmental monitoring, and rapid response to critical events. It brings together a diverse set of components and software tools to achieve its objectives.
+
+## Unmanned Ground Vehicle
+
+![UGV](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/front_view.png)
+![UGV](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/side_view.png)
+![UGV](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/top_view.png)
+
+## Web Interface
+
+![Web Interface](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/web_page.png)
 
 ## Block Diagram
 ![Block Diagram](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/024fd1e830369256dd49567265e80378d6a92c13/block_diagram.png)
