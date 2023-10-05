@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
+- [Block Diagram](#block-diagram)
 - [System Architecture](#system-architecture)
   - [Hardware Components](#hardware-components)
   - [Software Tools](#software-tools)
@@ -25,8 +26,12 @@ The remotely operated robotic car is a complex system that combines hardware and
 
 The project aims to create a versatile remotely operated robotic car system that integrates various technologies such as IoT, machine learning, and real-time data transmission. This system is designed to be highly adaptable and capable of performing tasks such as remote surveillance, environmental monitoring, and rapid response to critical events. It brings together a diverse set of components and software tools to achieve its objectives.
 
+## Block Diagram
+![Block Diagram](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/024fd1e830369256dd49567265e80378d6a92c13/block_diagram.png)
+
 ## System Architecture
 ![System Architecture Diagram](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/024fd1e830369256dd49567265e80378d6a92c13/system_architecture.png)
+
 ### Hardware Components
 - **Raspberry Pi 4:** The central controller of the robotic car.
 - **Logitech C270 Webcam:** Captures live video feed.
