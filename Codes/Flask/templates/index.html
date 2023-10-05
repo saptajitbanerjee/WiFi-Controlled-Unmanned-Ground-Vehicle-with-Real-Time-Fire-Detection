@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Control Station</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/devicons/devicon/raw/master/icons/raspberrypi/raspberrypi-original.svg">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h3>Raspberry Pi Robotic Car Control Web App</h3>
+        <p>Click on the output page and to control the movements of the Robotic Car</p>
+    </div>
+    <div id="background">
+        <img id="video_feed" src="{{ url_for('video_feed') }}" alt="Live Video Feed">
+        <!--button onClick="httpGetAsync('http://192.168.94.45:8010/forward',{})">forward</button-->
+        <div id="charts">
+            <div id="real_time_data">
+                <span id="heading">Real Time Data</span>
+                <p>
+                    Temperature: <span style="color:royalblue"><span id="d1">NaN</span> &#8451;</span>
+                </p>
+                <p>
+                    Humidity: <span style="color:royalblue"><span id="d2">NaN</span> %</span>
+                </p>
+                <p>
+                    Pressure: <span style="color:royalblue"><span id="d3">NaN</span> hPa</span>
+                </p>
+                <p>
+                    Altitude: <span style="color:royalblue"><span id="d4">NaN</span> m</span>
+                </p>
+                <button id="speech" style="height:40px;font-size:15px;padding:10px;">
+                    Activate Speech Control &nbsp; <i class="fa fa-microphone" style="font-size:10px;"></i>
+                 </button>
+            </div>
+            <div id="arrow_box">
+                <div>
+                    <button id="forward" class="keyboard"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+                    <div>
+                        <button id="left" class="keyboard"><i class="fas fa-arrow-left"></i></button>
+                        <button id="reverse" class="keyboard"><i class="fas fa-arrow-down"></i></button>
+                        <button id="right" class="keyboard"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="{{url_for('static',filename='bundle.js')}}"></script>
+</body>
+
+</html>
