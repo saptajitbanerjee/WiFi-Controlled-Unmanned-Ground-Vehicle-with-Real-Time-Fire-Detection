@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana
+}
+
+#background {
+    /*border: 2px solid black;*/
+    display: flex;
+    /*align-items: center;
+    flex-wrap: wrap;*/
+    padding: 5px;
+    height: 80%;
+    width: 98%
+}
+
+#video_feed {
+    width: 70%;
+    height: 95%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#charts {
+    width: 30%;
+    height: 95%;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 15px
+}
+
+#heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#real_time_data {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    font-size: 14px
+}
+
+#real_time_data p {
+    margin: 3px;
+}
+
+#speech {
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Verdana;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: cyan;
+    color: grey;
+}
+
+#arrow_box {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.keyboard {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    align-items: center;
+}
+
+.keyboard:hover {
+    background-color: green;
+}
+
+
+/*button:active {
+    transform: scale(0.8);
+}*/
+
+i {
+    transform: scale(2)
+}
+
+@media only screen and (max-width:1030px) {
+    .keyboard {
+        height: 70px;
+        width: 70px;
+        margin: 2px
+    }
+}
+
+@media only screen and (max-width:870px) {
+    .keyboard {
+        height: 60px;
+        width: 60px;
+        margin: 2px
+    }
+    #speech {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .keyboard {
+        height: 50px !important;
+        width: 50px !important;
+        margin: 2px
+    }
+}
+
+@media only screen and (max-width:685px) {
+    .keyboard {
+        height: 45px !important;
+        width: 45px !important;
+        margin: 2px
+    }
+    #speech {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:625px) {
+    .keyboard {
+        height: 40px !important;
+        width: 40px !important;
+        margin: 2px
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .keyboard {
+        height: 35px !important;
+        width: 35px !important;
+        margin: 1px
+    }
+    i {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width:565px) {
+    .keyboard {
+        height: 35px;
+        width: 35px;
+        margin: 2px
+    }
+}
+
+@media only screen and (max-width:1366px) and (max-height: 592px) {
+    .keyboard {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width:1366px) and (max-height: 540px) {
+    .keyboard {
+        height: 60px;
+        width: 60px;
+        margin: 2px
+    }
+}
+
+@media only screen and (max-width:1366px) and (max-height: 440px) {
+    .keyboard {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width:1366px) and (max-height: 420px) {
+    .keyboard {
+        height: 50px;
+        width: 50px;
+    }
+}
