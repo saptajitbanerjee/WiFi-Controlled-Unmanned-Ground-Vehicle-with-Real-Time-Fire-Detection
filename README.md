@@ -1,8 +1,8 @@
 # Project Documentation
 
 ## Table of Contents
-- [Project Overview](#project-overview)
 - [Introduction](#introduction)
+- [Project Overview](#project-overview)
 - [System Architecture](#system-architecture)
   - [Hardware Components](#hardware-components)
   - [Software Tools](#software-tools)
@@ -17,13 +17,13 @@
   - [PyTorch Integration](#pytorch-integration)
 - [Conclusion](#conclusion)
 
-## Project Overview
-
-The project aims to create a versatile remotely operated robotic car system that integrates various technologies such as IoT, machine learning, and real-time data transmission. This system is designed to be highly adaptable and capable of performing tasks such as remote surveillance, environmental monitoring, and rapid response to critical events. It brings together a diverse set of components and software tools to achieve its objectives.
-
 ## Introduction
 
 The remotely operated robotic car is a complex system that combines hardware and software to enable remote control and monitoring. It utilizes a Raspberry Pi as its core controller and leverages AWS cloud services for data transmission and processing. The project integrates sensors for environmental data collection, real-time video streaming for visual feedback, and machine learning for fire detection. Additionally, it provides multiple control interfaces, including on-screen, keyboard, and voice commands.
+
+## Project Overview
+
+The project aims to create a versatile remotely operated robotic car system that integrates various technologies such as IoT, machine learning, and real-time data transmission. This system is designed to be highly adaptable and capable of performing tasks such as remote surveillance, environmental monitoring, and rapid response to critical events. It brings together a diverse set of components and software tools to achieve its objectives.
 
 ## System Architecture
 
