@@ -6,8 +6,8 @@ const iotData = new AWS.IotData({
     region: "ap-south-1", // Replace with your desired AWS region
     //apiVersion: '2015-05-28',
     credentials: {
-        accessKeyId: "AKIATNYGUNULOGNRE4M6",
-        secretAccessKey: "/NBkI/Djkcvs6IH+xXPv9fP8y5FDJ/hmEKooYaCt",
+        accessKeyId: "YOUR_ACCESS_KEY_ID",
+        secretAccessKey: "YOUR_SECRET_ACCESS_KEY",
     },
 });
 
