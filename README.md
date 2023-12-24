@@ -84,19 +84,19 @@ The project aims to create a versatile remotely operated unmanned ground vehicle
 
 ## Unmanned Ground Vehicle
 
-![UGV](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/front_view.png)
-![UGV](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/side_view.png)
-![UGV](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/top_view.png)
+![UGV](https://github.com/saptajitbanerjee/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/main/top_view.png)
+![UGV](https://github.com/saptajitbanerjee/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/main/front_view.png)
+![UGV](https://github.com/saptajitbanerjee/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/main/side_view.png)
 
 ## Web Interface
 
-![Web Interface](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/8f25b455ebbfa375e9a9c811d8d22bb41ab33587/web_page.png)
+![Web Interface](https://github.com/saptajitbanerjee/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/main/web_page.png)
 
 ## Block Diagram
-![Block Diagram](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/024fd1e830369256dd49567265e80378d6a92c13/block_diagram.png)
+![Block Diagram](https://github.com/saptajitbanerjee/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/main/block_diagram.png)
 
 ## System Architecture
-![System Architecture Diagram](https://github.com/saptajitbanerjee/Internet-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/024fd1e830369256dd49567265e80378d6a92c13/system_architecture.png)
+![System Architecture Diagram](https://github.com/saptajitbanerjee/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection/blob/main/system_architecture.png)
 
 ### Hardware Components
 - **Raspberry Pi 4:** The central controller of the robotic car.
