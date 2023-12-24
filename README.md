@@ -1,6 +1,7 @@
 # Internet Controlled Unmanned Ground Vehicle with Real Time Fire Detection
 
 ## Table of Contents
+- [Instructions](#instructions)
 - [Introduction](#introduction)
 - [Project Overview](#project-overview)
 - [Unmanned Ground Vehicle](#ugv)
@@ -19,6 +20,59 @@
   - [Web Application Development](#web-application-development)
   - [PyTorch Integration](#pytorch-integration)
 - [Conclusion](#conclusion)
+
+## Instructions
+
+1. **Install YOLOv5 on your device:**
+
+    ```bash
+    # Example command for installation
+    pip install yolov5
+    ```
+
+2. **Clone this repository and place it in the YOLOv5 folder:**
+
+    ```bash
+    # Example commands for cloning the repository
+    git clone https://github.com/your-username/WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection.git
+    mv WiFi-Controlled-Unmanned-Ground-Vehicle-with-Real-Time-Fire-Detection yolov5/
+    cd yolov5
+    ```
+
+3. **To run the Flask Application, navigate to the project directory and execute:**
+
+    ```bash
+    cd Codes
+    python main.py
+    ```
+
+4. **Additionally, on the Raspberry Pi, execute the following files in separate terminals:**
+
+    - To run AWS BME280 integration:
+
+      ```bash
+      python aws_bme280.py
+      ```
+
+    - To run the AWS IoT Remote Control:
+
+      ```bash
+      python remote_control_aws.py
+      ```
+
+    - To stream live video feed over the internet using Remote.it:
+
+      ```bash
+      python webstream_cv.py
+      ```
+
+5. **Ensure that Remote.it is properly configured for live video streaming.**
+
+6. **Setup the IoT Architecture in AWS:**
+   - The user needs to set up the IoT architecture in AWS by following the provided documentation.
+
+Ensure that you have YOLOv5 installed and the required dependencies for the Flask application. Additionally, make sure the necessary configurations are done for AWS IoT and Remote.it on the Raspberry Pi.
+
 
 ## Introduction
 
